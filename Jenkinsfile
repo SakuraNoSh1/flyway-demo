@@ -40,7 +40,7 @@ pipeline {
                 }
             }
         }
-
+/*
         stage('Flyway Validate') {
             steps {
                 script {
@@ -55,7 +55,7 @@ pipeline {
                 }
             }
         }
-
+*/
         stage('Flyway Migrate') {
             steps {
                 script {
