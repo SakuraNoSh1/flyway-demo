@@ -10,7 +10,7 @@ pipeline {
 
                 configFileProvider([
                     configFile(
-                        fileId: 'flyway-local-config',
+                        fileId: '253fb770-d1a9-496c-89ec-b640bff344d7',
                         variable: 'fileConfig'
                     )
                 ]) {
