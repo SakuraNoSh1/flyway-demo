@@ -15,7 +15,7 @@ pipeline {
                     echo "Running SQLFluff lint..."
 
                     bat """
-                    sqlfluff lint sql
+                    python -m sqlfluff lint sql
                     """
                 }
             }
