@@ -1,4 +1,4 @@
-INSERT INTO customers (id, name, email)
+INSERT INTO users (id, name, email)
 VALUES
 (1, 'Juan Perez', 'juan.perez@email.com'),
 (2, 'Maria Lopez', 'maria.lopez@email.com'),
